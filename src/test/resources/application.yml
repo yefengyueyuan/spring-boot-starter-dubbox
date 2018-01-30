@@ -1,0 +1,19 @@
+server:
+  port: 7001
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+  dubbo:
+    appname: spring-boot-starter-dubbo-test
+    registry: zookeeper://172.20.32.126:2181
+    version: 1.0.0
+    dubbox-dubbo:
+      protocol: dubbo
+      port: 20801
+    dubbox-rest:
+      server: tomcat
+      port: 8889
+      protocol: rest
+      contextpath: rest-api
