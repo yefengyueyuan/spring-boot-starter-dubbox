@@ -32,7 +32,7 @@ spring:
   dubbo:
     appname: spring-boot-starter-dubbo-test
     protocol: dubbo
-    registry: zookeeper://172.20.32.126:2181
+    registry: zookeeper://120.0.0.1:2181
     port: 20801
     version: 1.0.0
     dubbox-rest:
@@ -105,7 +105,7 @@ spring:
   dubbo:
     appname: spring-boot-starter-dubbo-test
     protocol: dubbo
-    registry: zookeeper://172.20.32.126:2181
+    registry: zookeeper://120.0.0.1:2181
     port: 20801
     version: 1.0.0
     dubbox-rest:
